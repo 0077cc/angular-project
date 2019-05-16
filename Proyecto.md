@@ -6,6 +6,8 @@
 
    ``ng new app-final --skip-tests --directory project``
 
+   ``cd project``
+
    ``ng serve -o``
 
 2. Agregar Boostrap al proyecto.
@@ -38,7 +40,7 @@
 
    + sign: login, register
    + dashboard: users, categories, products
-   + shared: notification, modal
+   + shared: notification, modal-confirm
 
 6. Revisión de los siguientes conceptos para continuar:
    + [ ] Rutas
