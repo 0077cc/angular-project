@@ -4,6 +4,8 @@ import { COMPONENTS } from './init';
 
 import { RoutingModule } from './routing.module';
 
+import { UserService } from './services/user.service';
+
 @NgModule({
   declarations: [
     ...COMPONENTS
@@ -14,6 +16,9 @@ import { RoutingModule } from './routing.module';
   ],
   exports: [
     ...COMPONENTS
+  ],
+  providers: [
+    UserService
   ]
 })
 export class DashboardModule { }
